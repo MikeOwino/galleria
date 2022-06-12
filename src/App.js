@@ -1,8 +1,13 @@
 import React from 'react';
+import { Helmet } from "react-helmet";
+
 
 export default function App() {
   return (
     <>
+      <Helmet>
+      <script src="https://cdn.owino.xyz/mikeowino-gallery/script.js"></script>
+      </Helmet>
       <div className="header d-flex flex-column align-items-center">
         <h1 className="display-6 mt-3 mb-0">Mike Owino | Photos</h1>
         <p className="lead mt-2 mb-4">
