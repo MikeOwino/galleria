@@ -16,7 +16,7 @@ export default function App() {
         </p>
         <a
           className="btn mb-5 btn-outline-primary"
-          href="https://mikeowino.com/"
+          href="javascript:window.open('','_self').close();"
           target="_parent"
         >
           Back Home
